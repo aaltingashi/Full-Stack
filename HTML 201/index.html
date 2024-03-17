@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML 201</title>
+    <link rel="shortcut icon" href="images/favicon/174854.png" type="img/png">
+</head>
+<body>
+
+    <h1 id="top">Welcome to HTML 201</h1>
+    <a href="#bottom">Click to Scroll down</a>
+    
+    <p> <span style="text-decoration: underline;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> Fugit sequi odit vel accusantium,
+        consequatur alias et nam esse, veritatis voluptates laboriosam magni quasi porro ex eveniet!
+        Fuga ducimus tempora odit!
+    </p>
+
+    <img src="images/computer.jpg" alt="Computer">
+
+    <h3 id="bottom">This is the Bottom of the page</h3>
+
+    <a href="#top">Scroll to top</a>
+
+    <h1>Lesson 63 - Basic Table</h1>
+    <table border="1" width="100%">
+        <tr>
+            <td>First Cell Here</td>
+            <td>Second Cell Here</td>
+        </tr>
+        <tr>
+            <td>Row 2, Cell 1</td>
+            <td>Row 2, Cell 2</td>
+        </tr>
+    </table>
+
+    <h1>Lesson 64 - Table Colspan & rowspan</h1>
+
+    <table border="1" width="100%">
+        <tbody>
+            <tr>
+                <td colspan="3">1</td>
+            </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <td colspan="2">2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Lesson 65 - colspan & width</h1>
+
+    <table border="1" width="100%">
+        <tr>
+            <td colspan="2">This is my website</td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <h3>Navigation</h3>
+            </td>
+
+            <td>
+                <h3>Content</h3>
+            </td>
+        </tr>
+    </table>
+
+    <h1>Lesson 66 - Table Header "td"</h1>
+
+    <table border="1" width="100%">
+        <tr>
+            <th colspan="2">This is my website</td>
+        </tr>
+        <tr>
+            <td width="20%">
+                <h3>Navigation</h3>
+            </td>
+
+            <td>
+                <h3>Content</h3>
+            </td>
+        </tr>
+    </table>
+
+    <h1> Lesson 67 - Inline CSS </h1>
+
+    <div style="padding: 40px; color: white; background-color: black;" >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, beatae.
+        Alias ea non aut fugit exercitationem corporis nisi aspernatur hic pariatur qui cum,
+        sapiente, nesciunt quam quas voluptatum, quis reiciendis?
+    </div>
+
+    <h1> Lesson 68 - HTML Classes </h1>
+
+
+    <style>
+        .className{
+            padding: 40px;
+            color: white;
+            background-color: black;
+        }
+
+        .uppercase{
+            text-transform: uppercase;
+        }
+
+        #testingID{
+            border: 15px solid red;
+        }
+    </style>
+
+    <div class="className" >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, beatae.
+        Alias ea non aut fugit exercitationem corporis nisi aspernatur hic pariatur qui cum,
+        sapiente, nesciunt quam quas voluptatum, quis reiciendis?
+    </div>
+    <div>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id voluptatibus
+        nihil iste dolorum, rem, facere saepe accusamus sit maxime iusto tempora
+        consequatur quasi fugit deserunt dicta reprehenderit, placeat quaerat velit!
+    </div>
+
+    <div class="className uppercase">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus at atque
+        dicta aliquid nesciunt ullam accusamus quae vero, dolor facilis, id, omnis
+        aspernatur odio illo laudantium inventore quod magni?
+    </div>
+
+    <h1>Lesson 69 - HTML ID'S</h1>
+
+
+    <div class="className" >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, beatae.
+        Alias ea non aut fugit exercitationem corporis nisi aspernatur hic pariatur qui cum,
+        sapiente, nesciunt quam quas voluptatum, quis reiciendis?
+    </div>
+    <div id="testingID">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id voluptatibus
+        nihil iste dolorum, rem, facere saepe accusamus sit maxime iusto tempora
+        consequatur quasi fugit deserunt dicta reprehenderit, placeat quaerat velit!
+    </div>
+
+    <div class="className uppercase">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A possimus at atque
+        dicta aliquid nesciunt ullam accusamus quae vero, dolor facilis, id, omnis
+        aspernatur odio illo laudantium inventore quod magni?
+    </div>
+
+    <h1> Lesson 70 - Code Formating</h1>
+
+    <h2>Format Code</h2>
+    <pre>
+        Some      Stuff   Here
+        Second    Line    Here
+    </pre>
+
+    <p> <code>Lorem ipsum dolor sit amet consectetur adipisicing elit.</code>
+        Laudantium illum officia cupiditate possimus nisi expedita,
+        doloribus quos velit neque fuga libero provident exercitationem blanditiis,
+        assumenda quam dolores maiores eius. Voluptatibus?
+    </p>
+
+    <h1>Lesson 71 - HTML Entities</h1>
+
+    <pre>
+        Some      Stuff   Here <b>This is Bold</b>
+        Second    Line    Here  &lt;b&gt; This is Bold &lt;/b&gt; <!-- Human View For Code -->
+    </pre>
+
+    <p>&copy; 2024</p>
+
+    <p> 
+        <sup>&copy; 2024</sup>
+    </p>
+    
+    <p> 
+        <sub>&copy; 2024</sub>
+    </p>
+
+    <h1>Lesson 72 - Forms</h1>
+    <form method="get" action="somepage.html">
+
+        <button type="submit">Submit Form</button>
+
+    </form>
+
+    <h1>Lesson 73- Input Elements</h1>
+
+    <h3>Forms</h3>
+    <form action="">
+        <input type="text" value="Text by default" placeholder="Enter Your Name">
+        <input type="password" placeholder="Enter Your Password">
+    </form>
+
+    <h1>Lesson 74 - Text Areas</h1>
+
+    <h3>Forms</h3>
+    <form action="">
+        <textarea name="" id="" cols="50" rows="5" placeholder="aaaa place holdeer">Text Here</textarea>
+    </form>
+
+    
+    <h1>Lesson 75 - Buttons </h1>
+
+
+    <h3>Forms</h3>
+    <form action="">
+        <textarea name="" id="" cols="50" rows="5" placeholder="aaaa place holdeer">Text Here</textarea>
+        <button type="button">Classic Button</button>
+    <button type="reset">Reset Button</button>
+    <button type="submit">Submit Button</button>
+
+    </form>
+
+    <h1>Lesson 76 - Dropdown Menu </h1>
+
+    <form action="">
+        <textarea name="" id="" cols="50" rows="5" placeholder="aaaa place holdeer">Text Here</textarea>
+        <div>
+            <select name="" id="">
+
+                <option value="" disabled="disabled">-Disabled-</option>
+                <option value="value1">Value 1</option>
+                <option value="value2">Value 2</option>
+                <option value="value3">Value 3</option>
+                <option value="value4">Value 4</option>
+                <option value="" selected="selected">By Default</option>
+
+            </select>
+        </div>
+    </form>
+
+    <h1> Lesson 77 - Videos</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MN9RXiHnA64?si=fIJBvQpIB0EUPN5n"
+    title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+
+</body>
+</html>
